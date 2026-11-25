@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: ghcr.io/med23b/demo-app@sha256:229b49afb10417b904dca2a142cc9f3303416f6ccffbfea67410b6ba385f7f3f
+          image: ghcr.io/med23b/demo-app@sha256:e7faaa9d8dc91ebe2816dd581fd74575bf511b0cd517e7f69f39deadb65eae40
           ports:
             - name: http
               containerPort: 8080
